@@ -1,9 +1,6 @@
 body {
     font-family: Roboto,monospace,"Segoe UI",sans-serif;
     min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     margin: 0;
 }
 
@@ -43,6 +40,7 @@ ul {
     list-style: none;
     display: flex;
     gap: 10px;
+    padding: 0;
 }
 
 a {
@@ -54,9 +52,10 @@ a {
 /* CSS for Hero section */
 .hero {
     display: flex;
+    flex-wrap: wrap;
     background-color: #1f2937;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     padding: 0px 20px 100px;
 }
 
@@ -113,3 +112,61 @@ a {
 }
 
 /* CSS for quote section */
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    padding: 50px; 
+    max-width: 700px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.quote-author {
+    text-align: right;
+}
+
+/* CSS for Action section */
+.action {
+    display: flex;
+    align-items: center;
+    background-color: rgb(99, 159, 214);
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 25px 100px;
+    gap: 100px;
+    border-radius: 8px;
+}
+
+.action-title {
+    font-size: 18px;
+    font-weight: 700;
+    color:#f9faf8;
+    margin-bottom: 5px;
+}
+
+.action-text {
+    color:#e5e7eb;
+}
+
+.action button {
+    border: 1px solid #e5e7eb;
+}
+
+/* CSS for footer */
+.footer {
+    background-color: #1f2937;
+    font-size: 16px;
+    color: #f9faf8;
+    padding: 35px;
+    text-align: center;
+}
