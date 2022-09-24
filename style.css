@@ -33,14 +33,28 @@ button:hover {
     background-color: #1f2937;
     font-size: 24px;
     color: #f9faf8;
-    padding: 0 20px;
+    padding: 20px;
+    gap: 100px;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo img {
+    height: 75px;
+    width: auto;
 }
 
 ul {
     list-style: none;
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 30px;
     padding: 0;
+    margin: 0;
 }
 
 a {
