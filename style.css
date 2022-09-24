@@ -70,13 +70,14 @@ a {
     background-color: #1f2937;
     justify-content: center;
     gap: 50px;
-    padding: 0px 20px 100px;
+    padding: 100px 20px;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 700px;
 }
 
 .hero-title {
@@ -92,8 +93,9 @@ a {
 
 .hero img {
     border: 2px solid white;
-    height: 200px;
-    min-width: 400px;
+    border-radius: 10px;
+    height: auto;
+    max-width: 400px;
 }
 
 /* CSS for info section */
