@@ -117,12 +117,12 @@ a {
 
 .info-image {
     text-align: center;
-    width: 200px;
+    width: 300px;
 }
 
 .info-image img {
-    height: 100px;
-    width: 100px;
+    height: auto;
+    width: 300px;
     border: 2px solid #3882f6;
     border-radius: 8px;
 }
